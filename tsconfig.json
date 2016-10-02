@@ -9,5 +9,10 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
-  }
+  },
+    "exclude": [
+    "node_modules",
+    "node_modules/typescript/lib",
+    "typings/globals/core-js"
+  ]
 }
