@@ -1,0 +1,30 @@
+<div class="page-header">
+    <div class='container-fluid'>
+        <button type="button" class="btn btn-primary" (click)="saveOrder()">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Save
+        </button>
+        <span class="bg-success save-message" style="display: none;">Website order has been saved successfully!</span>
+    </div>
+</div>
+
+
+<div class='container-fluid'>
+    <div class="row">
+        <div class="col-md-3">
+          <div [dragula]='"bag-one"' [dragulaModel]='websites'>
+            <div *ngFor="let website of websites"> 
+             <div class="thumbnail text-center"> 
+                <img src="data:image/png;base64,{{website.image}}">
+                 <h4 class="site-name">{{website.name}}</h4>
+            </div>
+        </div>
+      </div>
+    </div>
+ </div>    
+</div>
+
+ <div>
+    <a class="back-to-top" style="display: none">
+        <i class="fa fa-arrow-circle-up"></i>
+    </a>
+</div>

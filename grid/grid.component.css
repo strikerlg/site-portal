@@ -1,0 +1,9 @@
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+
+.save-result { padding: 7px; }
+
+.update-result { padding: 7px; }
+
+.delete-result { padding: 7px; }

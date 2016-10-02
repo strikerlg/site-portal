@@ -1,0 +1,15 @@
+a.back-to-top {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+}
+
+.fa-arrow-circle-up {
+    font-size: 55px;
+}
+
+.save-message {
+    padding: 7px;
+}
