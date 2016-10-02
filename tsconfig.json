@@ -13,6 +13,7 @@
     "exclude": [
     "node_modules",
     "node_modules/typescript/lib",
-    "typings/globals/core-js"
+    "typings/globals/core-js",
+    "typings/index.d.ts"
   ]
 }
